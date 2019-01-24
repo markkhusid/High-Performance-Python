@@ -69,7 +69,7 @@ def visualize(simulator):
     plt.show()
 
 def test_visualize():
-    particles = (Particle(0.3, 0.5, 1),
+    particles = [Particle(0.3, 0.5, 1),
             Particle(0.0, -0.5, -1),
             Particle(-0.1, -0.4, 3)]
 

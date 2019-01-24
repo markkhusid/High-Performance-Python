@@ -1,0 +1,10 @@
+Command used:
+{ time python3 benchmark.py; } 2> time_benchmark_py.txt
+
+System:
+Parrot OS 64 Bit Virtual Machine (4 cores allocated, 4 GB RAM allocated) 
+        inside quad core AMD AthlonII 3.0GHz, 16 GM RAM
+
+real	0m11.328s
+user	0m11.235s
+sys	0m0.069s
